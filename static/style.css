@@ -1,0 +1,8 @@
+svg {
+    max-width: none !important;
+    max-height: 100vh;
+}
+
+.detailed > g:nth-child(2) > g > text > tspan:not(:nth-child(1)) > tspan {
+    font-size: small;
+}
