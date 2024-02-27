@@ -1,6 +1,24 @@
+body {
+    padding: 0 1rem 1rem 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
 svg {
     max-width: none !important;
     max-height: 100vh;
+}
+
+footer {
+    margin-top: -2vw;
+    font-size: 1vw;
+}
+
+address {
+    display: inline;
+    font-style: normal;
 }
 
 .detailed > g:nth-child(2) > g > text > tspan:not(:nth-child(1)) > tspan {
